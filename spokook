@@ -1,0 +1,68 @@
+@media screen and (min-width: 700px) {
+    .grider {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 700px) {}
+html {
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+  }
+  body{
+    background: linear-gradient(45deg, red,purple, blue);
+  }
+caption {
+    text-align: center;
+    border:3px solid #36304A;
+    width:200px;
+    margin: 0 auto;
+    font-size:20px;
+    color: white;
+}
+body > div > table {
+    width: 100%;
+}
+body > div > table table {
+    margin: auto ;
+}
+
+th{
+    background-color:#36304A;
+    color:white;
+    font-family: "Rock Salt", cursive;
+}
+tr:nth-child(2n+2){
+    background-color:#EDEDED;
+}
+tr:nth-child(2n+1){
+    background-color:white;
+}
+
+.nr {
+    text-align:center;
+}
+.g{
+    text-align:center;
+}
+.tabela td:hover{
+    background-color:#7F82BB;
+    color:white;
+}
+.tabela tr:hover{
+    background-color:#ADB1FF;
+}
+
+table.tabela {
+    table-layout:fixed;
+    width:100%;
+    height:333px;
+    border-collapse:collapse;
+    font-size:15px;
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+  }
+  tbody{
+    padding:0;
+    margin:0;
+    border: 2px;
+    border-color:#36304A;
+  }
+
